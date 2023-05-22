@@ -31,7 +31,7 @@ class Robot:
             year = int(match.group(3))
             return day, month, year
         else:
-            print("Invalid date format")
+            print("Invalid date format please correct")
             return None
 
     def calculate_age(birth_date, death_date):
